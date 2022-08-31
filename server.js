@@ -1,4 +1,3 @@
-// Test of new branch
 const express = require('express')
 const app = express()
 const mongoose = require('mongoose')
@@ -43,5 +42,5 @@ app.use('/', mainRoutes)
 app.use('/attractions', attractionRoutes)
  
 app.listen(process.env.PORT, ()=>{
-    console.log('Server is running, you better catch it!')
+    console.log(`The Las Vegas attraction server is running on ${PORT}`)
 })    
