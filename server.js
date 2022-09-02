@@ -45,4 +45,4 @@ app.use('/attractions', attractionRoutes)
 
 app.listen(process.env.PORT, ()=>{
   console.log(`The Las Vegas attraction server is running!`)
-})    
+})

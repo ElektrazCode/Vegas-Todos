@@ -84,22 +84,22 @@ section#main{
     h2{
         padding: 0 4em;
     }
-    section#main .interact{
+    section#main .interact, #logout{
         width: 12em;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
-    section#main .interact a, section#footer a{
+    section#main .interact a,#logout, section#footer a{
         color: white;
         text-decoration: none;
     }
-    section#main .interact a{
+    section#main .interact  a, #logout{
         padding: .7em 1em;
         border-radius: .8em;
         background-color: rgba(80, 58, 180,.7) ;
     }
-    section#main .interact a:hover{
+    section#main .interact  a:hover{
         background-color: gold;
         color: rgb(80, 58, 180);
         font-family: 'Roboto', sans-serif;
@@ -133,3 +133,6 @@ section#footer{
         background-color: rgba(80, 58, 180,.7);
         border-radius: .7em;
     }
+
+
+

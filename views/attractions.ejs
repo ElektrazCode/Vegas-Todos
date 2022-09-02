@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Las Vegas Attractions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="../public/css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+  <section id="attractionsForUser">
     <h1>Attractions</h1>
     <ul>
     <% attractions.forEach( el => { %>
@@ -25,8 +28,10 @@
         <input type="submit">
     </form>
 
-    <a href="/logout">Logout</a>
+    <a id="logout" href="/logout">Logout</a>
+  </section>
+    
 
-    <script src="js/main.js"></script>
+    <script src="../public/js/main.js"></script>
 </body>
 </html>
